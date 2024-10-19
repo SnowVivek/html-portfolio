@@ -1,53 +1,64 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style></style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="/html-portfolio/styles.css" />
   </head>
   <body>
-    <h1>Contact Me</h1>
-    <p>Tel: +123456789</p>
-    <p>Email: me@gmail.com</p>
-    <p>Address:</p>
-    <p>
-      123 North Street<br />
-      Some City<br />
-      Some Country <br />
-    </p>
-
-    <section>
-      <h2>Form</h2>
-      <form action="#" method="post">
-        <label for="name">Name</label><br />
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Enter your name"
-        /><br />
-        <label for="email">Email</label><br />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your email"
-        /><br />
-        <label for="age">Age</label><br />
-        <input type="text" id="age" name="age" placeholder="Age" /><br />
-        <label for="crole"
-          >What is your current role <br />
-          <select name="crole" id="crole">
-            <option value="">Select one</option>
-            <option value="1">First</option>
-            <option value="2">Second</option>
-            <option value="3">Third</option>
-          </select> </label
-        ><br />
-        <label for="profile-picture"
-          >Upload a profile picture:
-          <input id="profile-picture" type="file" name="file" /></label
-        ><br />
-        <input type="submit" value="Submit" />
-      </form>
-    </section>
+    <header>
+      <h1>Contact Me</h1>
+    </header>
+    <div class="main">
+      <p>Tel: +123456789</p>
+      <p>Email: me@gmail.com</p>
+      <p>Address:</p>
+      <p>
+        123 North Street<br />
+        Some City<br />
+        Some Country <br />
+      </p>
+      <section class="form">
+        <h2>Form</h2>
+        <form action="#" method="post">
+          <label for="name">Name</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+          /><br />
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          /><br />
+          <label for="age">Age</label><br />
+          <input type="text" id="age" name="age" placeholder="Age" /><br />
+          <label for="crole"
+            >What is your current role <br />
+            <select name="crole" id="crole">
+              <option value="">Select one</option>
+              <option value="1">First</option>
+              <option value="2">Second</option>
+              <option value="3">Third</option>
+            </select> </label
+          ><br />
+          <label for="profile-picture"
+            >Upload a profile picture:
+            <input id="profile-picture" type="file" name="file" /></label
+          ><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </div>
+    <footer>
+      <a href="/html-portfolio/index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="contact.html">Contact Me</a>
+    </footer>
   </body>
 </html>
